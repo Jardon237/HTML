@@ -1,0 +1,249 @@
+/**** project exercise 1 css rules ******/
+.e1 {
+    display: flex;
+    justify-content: center;
+}
+
+.e1 caption {
+    font-size:xx-large;
+}
+
+.e1 table,
+.e1 th,
+.e1 td {
+    border: thin solid;
+}
+
+.e1 th,
+.e1 td {
+    padding: 10px;
+}
+
+.e1 thead th {
+    background-color: red;
+    color: white;
+}
+
+.e1 thead th, 
+.e1 tbody td {
+    text-align: center;
+}
+
+.e1 tbody th {
+    text-align: left;
+}
+
+.e1 .th-desc {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/**** project exercise 2 css rules ******/
+/*.e2 header,
+.e2 section,
+.e2 figure {
+    position: absolute;
+}*/
+.e2 {
+    background-color: skyblue;
+    width: 75%;
+}
+
+.e2 header {
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+}
+
+.e2 .row {
+    display: table;
+    width: 100%;
+}
+
+.e2 .col {
+    display: table-cell;
+    width: auto;
+}
+
+.e2 ul {
+    list-style-type:circle;
+}
+
+.e2 figure img {
+    width: 100%;
+}
+.e2 figure figcaption {
+    text-align: center;
+}
+
+/**** practice 1 css rules ******/
+
+.p1 table, .p1 th, .p1 td {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+
+.p1 th, .p1 td {
+    text-align: left;
+    padding: 10px;
+}
+
+.p1 table {
+    border-width: thick;
+}
+
+.p1 th {
+    border-bottom-width: thick;
+}
+
+.p1 table {
+    /* the following rule is collapse in-table borders and remove gaps between cells and rows */
+    border-collapse: collapse; 
+}
+
+/* this is a pseudo class selector that selects just first of type of the element specified */
+.p1 tr:first-of-type {
+    background-color: palegreen;
+}
+
+
+/***** Practice 2 Styles ******/
+.p2 caption {
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.p2 table, .p2 th, .p2 td{
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+}
+
+.p2 table {
+    border-collapse: collapse;
+    width:max-content;
+    margin: auto;
+}
+
+.p2 th {
+    text-align: center;
+}
+
+.p2 tr:nth-last-of-type(2n+1) {
+    background-color: rgb(245, 198, 140);
+}
+
+.p2 tr:first-of-type {
+    background-color: lightgreen;
+}
+
+
+
+.p2 tr:nth-of-type(n) td:nth-last-of-type(2),
+.p2 tr:nth-of-type(n) td:nth-last-of-type(1) {
+    text-align: right;
+}
+
+
+/***** Practice 3 CSS rules *****/
+/*
+.p3 table {
+    width: 240px;
+    margin: auto;
+    text-align: center;
+}*/
+.p3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p3 th {
+    color: white;
+}
+.p3 thead th {
+    background-color: rgb(7, 7, 66);
+}
+.p3 tbody th {
+    background-color: rgb(156, 23, 101);
+}
+
+.p3 th, .p3 td {
+    padding: 12px;
+}
+
+.p3 tbody tr {
+    background-color: pink;
+}
+
+.p3 table caption {
+    font-weight: bold;
+}
+
+
+/***** Practice 4 CSS rules *****/
+.p4 thead th {
+    background-color: rgb(13, 161, 13);
+}
+
+.p4 tbody th {
+    background-color: skyblue;
+}
+.p4 table {
+    border: thin solid;
+}
+.p4 th,
+.p4 td {
+    border: thin solid;
+    padding: 12px;
+}
+
+
+/***** practice 5 css styles *****/
+.p5 {
+    background-color: rgb(172, 255, 190);
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.p5 .bg-light-green {
+    background-color: rgb(106, 172, 93);
+    margin-top: 12px;
+    padding: 1px 12px 0px 12px;
+    font-size: small;
+}
+
+.p5 .main-heading {
+    background-color: rgb(8, 131, 8);
+    padding: 12px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.p5 table,
+.p5 th,
+.p5 td {
+    border: thin solid;
+    border-collapse: collapse;
+}
+
+.p5 table {
+    width:max-content;
+    margin: auto;
+    padding: 24px;
+}
+
+.p5 .table-sec caption {
+    font-weight: bold;
+    padding: 12px;
+}
+
+.p5 tr:nth-of-type(n) td:nth-of-type(3),
+.p5 tr:nth-of-type(n) td:nth-of-type(4) {
+    text-align: right;
+}
